@@ -1,9 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-
-class StudentInfo extends React.Component {
-  render() {
+export default function StudentInfo() {
     return (
       <div>
         <h2>Aidan Davies</h2>
@@ -16,4 +14,4 @@ class StudentInfo extends React.Component {
       </div>
     );
   }
-}
+
