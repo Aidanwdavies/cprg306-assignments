@@ -5,7 +5,6 @@ export default function Page() {
         <p>
           This is a demo of a simple shopping list app.
         </p>
-        <ShoppingList />
       </div>
     );
   }
