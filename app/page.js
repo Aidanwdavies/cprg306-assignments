@@ -1,15 +1,12 @@
 import Link from "next/link";
 
-export default function Page() {
-    return (
-      <div>
-        <h1>Week 2 Demo</h1>
-        <p>
-          This is a demo of a simple shopping list app.
-        </p>
-        <li>
-         <link href="/week-2/student-info">week-2/student-info</link>
-        </li>
-      </div>
-    );
-  }
+export default function RootPage() {
+  return (
+    <main>
+      <h1>CPRG 306: Web Development 2 - Assignments</h1>
+      <Link href="/week-2">
+        <a>Go to Week 2 Page</a>
+      </Link>
+    </main>
+  );
+}
