@@ -7,7 +7,7 @@ export default function StudentInfo() {
         <h2>Aidan Davies</h2>
         <p>
           Check out my GitHub repository: 
-          <Link href="https://github.com/Aidanwdavies/cprg306-assignments.git" target="_blank" rel="noopener noreferrer">
+          <Link href="https://github.com/Aidanwdavies/cprg306-assignments.git">
             GitHub Repository
           </Link>
         </p>
