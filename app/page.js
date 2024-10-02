@@ -3,10 +3,13 @@ import Link from "next/link";
 export default function RootPage() {
   return (
     <main>
-      <h1>CPRG 306: Web Development 2 - Assignments</h1>
-      <Link href="/week-2">
+      <h1 className="text-x5 text-center font-bold">CPRG 306: Web Development 2 - Assignments</h1>
+      <p><Link href="/week-2">
         Go to Week 2 Page
-      </Link>
+      </Link></p>
+      <p className="text hover:ring-offset-sky-800"><Link href="/week-3">
+        Go to Week 3 Page
+      </Link></p>
     </main>
   );
 }
