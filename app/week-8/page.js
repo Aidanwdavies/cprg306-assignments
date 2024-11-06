@@ -15,9 +15,13 @@ function Page() {
     };
 
     const handleItemSelect = (item) => {
+        // Clean up the item name by removing size, special characters, and emojis
         const cleanedItemName = item
-            .replace(/[^a-zA-Z\s]/g, '') // Remove emojis and special characters
-            .trim(); // Trim whitespace
+            .split(',')[0]                  // Remove quantity (anything after a comma)
+            .replace(/[\p{Emoji_Presentation}]/gu, '') // Remove emojis using Unicode property
+            .replace(/[^a-zA-Z\s]/g, '')    // Remove special characters
+            .trim();                        // Trim any extra whitespace
+        
         setSelectedItemName(cleanedItemName);
     };
 
