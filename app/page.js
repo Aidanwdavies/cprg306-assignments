@@ -28,6 +28,9 @@ export default function RootPage() {
       <p className="text hover:ring-offset-sky-800"><Link href="/week-9">
         Go to Week 9 Page
       </Link></p>
+      <p className="text hover:ring-offset-sky-800"><Link href="/week-10">
+        Go to Week 10 Page
+      </Link></p>
     </main>
   );
 }
